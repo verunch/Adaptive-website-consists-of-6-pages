@@ -17,10 +17,10 @@
     ];
      $('#Slider_home').tmpl(data_slider_home).appendTo('.slider-for');
     var data_photos = [
-      {img:"img/photo_1.png",type:"Character  Design", date:"June 15, 2012"},
-      {img:"img/photo_2.png",type:"Brochure  Design", date:"June 15, 2012"},
-      {img:"img/photo_3.png",type:"Social Media Buttons", date:"June 15, 2012"},
-      {img:"img/photo_4.png",type:"10 Amazing Websites", date:"June 15, 2012"}
+      {img:"img/photo_1.png",type:"Character  Design", date:"June 15, 2012",link:"portfolio_item.html"},
+      {img:"img/photo_2.png",type:"Brochure  Design", date:"June 15, 2012",link:"portfolio_item.html"},
+      {img:"img/photo_3.png",type:"Social Media Buttons", date:"June 15, 2012",link:"portfolio_item.html"},
+      {img:"img/photo_4.png",type:"10 Amazing Websites", date:"June 15, 2012",link:"portfolio_item.html"}
     ];
      $('#Portf_home').tmpl(data_photos).appendTo('.photos');
      

@@ -1,0 +1,165 @@
+
+.slick-prev:before, .slick-next:before { 
+	font-family: "FontAwesome";
+	font-size: 50px;
+	line-height: 1;
+	color: white;
+	opacity: 0.75;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	 }   
+
+.slick-prev:before {
+     content: "\f053";
+     }
+[dir="rtl"] .slick-prev:before {
+     content: "\f054"; 
+     }
+.slick-next:before { 
+	 content: "\f054";
+	 }
+ [dir="rtl"] .slick-next:before {
+     content: "\f053";
+     }
+.slick-prev,.slick-next{
+     z-index: 100;
+     }
+.slick-next {
+    right:8%;
+     }
+.slick-prev {
+    left: 5%;
+     }
+ body > div:nth-child(3) > div{
+	 margin-left: -8.5%;
+     }
+ h3{
+	 font-size: 14px;
+	 font-family: "HelveticaNeue Bold",sans-serf;
+	 font-weight: bold;
+	 color: #e8603c;
+     }
+ h3+span{
+	 font-size: 14px;
+	 font-family: "HelveticaNeue",sans-serif;
+      }
+ .opacity{
+	 opacity: 0.7;
+         }
+ h1{
+	 font-family: "Bebas Regular", sans-serif;
+     font-size: 18px;
+     color: #e8603c;
+         }
+ p{
+     font-size: 12px;
+     font-family: "HelveticaNeue",sans-serif; 	
+          }
+ .icon_blog{
+ 	 height: 75px;
+ 	 background-color: red;
+ 	 background: url(../img/icons_blog.png);
+ 	 width: 75px;
+ 	 background-position: 0 -158px;
+         }
+ body > div:nth-child(3) > div:nth-child(2) > .icon_blog{
+ 	 background-position: 0 0;
+     }
+ body > div:nth-child(3) > div:nth-child(3) > .icon_blog{
+ 	 background-position: 0 -321px;
+     }
+ body > div:nth-child(3) > div:nth-child(4) > .icon_blog{
+ 	  background-position: 0 -472px;
+     }
+ body > div:nth-child(3) > div:nth-child(6) > .icon_blog{
+ 	  background-position: 0 -633px;
+    }
+  .mg{
+     height: 15px;
+     margin: 55px 0;
+         }
+ .video {
+	 position: relative;
+	 padding-bottom: 56.25%;
+	 height: 0;
+	 overflow: hidden;
+         }
+ .video iframe,  
+ .video object,  
+ .video embed {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+          }
+ .px{
+	 background: url(../img/back_px.png) repeat;
+         }
+ .px p{
+	 font-family: "HelveticaNeue Italic",sans-serif;
+	 font-style: italic;
+	 font-size: 13px;
+	 color: #757575;
+          }
+ .px>.px>div{
+	 padding-top: 24px
+     }
+ .mgl{
+	 margin:35px 0 55px -3%;
+	 height: 15px;
+	      }
+ .intro a{
+	 font-family:"HelveticaNeue",sans-serif;
+	 font-size: 	12px;
+	 color:#a0a0a0;
+      }
+ .intro h1:last-of-type{
+	 margin-top: 0;
+     }
+ .footer{
+	 bottom: 20px;
+     }
+ .pagination>li>a, .pagination>li>span{
+     color: #ffffff;
+     text-decoration: none;
+     background-color: #f3b29d;
+     border: none;
+     padding: 6px 13px;
+     margin-right: 4px;
+     font-family: "Bebas Regular",sans-serif;	
+     font-family: 14px;
+        border-top-left-radius: 0px;
+     -webkit-border-top-left-radius: 0px; 
+  	 -moz-border-top-left-radius: 0px; 
+     }
+ .pagination>li:hover>span,
+ .pagination>li:hover>a,	
+ .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+     color: #fff;
+     cursor: default;
+     background-color: #e8663c;
+     border:none;
+     border-top-left-radius: 0px;
+     -webkit-border-top-left-radius: 0px; 
+  	 -moz-border-top-left-radius: 0px; 
+      }
+ .pagination>li:last-child>a, .pagination>li:last-child>span,
+ .pagination>li:first-child>a, .pagination>li:first-child>span,
+ .pagination>li:last-child>a, .pagination>li:last-child>span,
+ .pagination>li:first-child>a, .pagination>li:first-child>span,
+ .pagination>.active:last-child>a, .pagination>.active:last-child>a:focus, .pagination>.active:last-child>a:hover, .pagination>.active:last-child>span, .pagination>.active:last-child>span:focus, .pagination>.active:last-child>span:hover,
+ .pagination>.active:first-child>a, .pagination>.active:first-child>a:focus, .pagination>.active:first-child>a:hover, .pagination>.active:first-child>span, .pagination>.active:first-child>span:focus, .pagination>.active:first-child>span:hover{
+     border-radius: 0px;
+     -webkit-border-radius: 0px;
+     -moz-border-radius: 0px; 
+         }
+ .pagination {
+     margin: 0px 0 45px;
+ } 
+  .pd{
+  	padding: 0;
+  }
+{
+	
+}

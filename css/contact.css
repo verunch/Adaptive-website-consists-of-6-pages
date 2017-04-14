@@ -1,0 +1,39 @@
+#map{
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+.intro ul{
+	padding-left: 0;
+	list-style-type:none;
+	font-family: "HelveticaNeue Bold",sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.intro ul:first-of-type>li:first-child{
+	color: #e8603c;
+}
+textarea{
+	margin-bottom: 10px;
+	 resize:none
+}
+.form-control{
+	border-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #E8663C;
+    border-color: #E8663C;
+}
+.form-control::-webkit-input-placeholder {color:#E8663C;}
+.form-control::-moz-placeholder          {color:#E8663C;}/* Firefox 19+ */
+.form-control:-moz-placeholder           {color:#E8663C;}/* Firefox 18- */
+.form-control:-ms-input-placeholder      {color:#E8663C;}
+
+input, textarea{
+	text-transform: uppercase;
+	color: #e8663c;
+	font-family: "Bebas Regular",sans-serif;
+	font-size: 12px;
+}

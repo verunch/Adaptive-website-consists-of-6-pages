@@ -1,0 +1,45 @@
+
+    .portf .mg{
+            width: 85%;
+          }
+    .portf. h4{
+            width: 14%;
+          }
+   @media (min-width: 768px) { 
+      
+         .portf .mg{
+            width: 75%;
+          }
+          .portf. h4{
+            width: 24%;
+          }
+     }
+   @media (min-width: 992px) { 
+	 
+      .portf .mg{
+            width: 80%;
+          }
+          .portf. h4{
+            width: 19%;
+          }
+     }
+       @media (min-width: 1200px) {
+	       
+          .portf .mg{
+            width: 82%;
+          }
+          .portf. h4{
+            width: 17.5%;
+          }
+        }
+          @media (min-width: 1700px) {
+        
+          .portf .mg{
+            width: 88%;
+          }
+          .portf. h4{
+            width: 11%;
+          }
+         }
+
+  

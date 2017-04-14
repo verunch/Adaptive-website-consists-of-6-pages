@@ -1,0 +1,188 @@
+
+  .slick-prev:before, .slick-next:before { 
+	 font-family: "FontAwesome";
+	 font-size: 30px;
+	 line-height: 1;
+	 color: white;
+	 opacity: 0.75;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	  }   
+ .slick-prev:before {
+     content: "\f053";
+     }
+  [dir="rtl"] .slick-prev:before {
+     content: "\f054"; 
+     }
+.slick-next:before { 
+	content: "\f054";
+	 }
+[dir="rtl"] .slick-next:before {
+ content: "\f053";
+  }
+ .slick-prev,.slick-next{
+     z-index: 100;
+     }
+ .slick-next {
+     right:8%;
+     }
+ .slick-prev {
+      left: 5%;
+     }
+ .page-header {
+     height: 100%;
+     }
+ .slick-slide,
+ .slick-slide .slick-active{
+	 width: 140px;
+	 margin-right: 20px;
+     }
+ .slick-slide img {
+     display: block;
+     width: 100%;
+     margin-bottom: 20px;
+     }
+  .slider-nav>div{
+ 	 min-height: 1px;
+ 	 height: 140px;
+     }
+     .slick-prev, .slick-next {
+         top: -150px;
+     }
+     .slick-prev:before, .slick-next:before {
+         font-size: 90px;
+         }
+     .page-header {
+     background-color: #ffffff;
+     }
+  .square {
+     background-color: #e8663c;
+     opacity: 0.6;
+     position: absolute;
+     z-index: 20;
+     top: 25%;
+     left: 8%;
+     color: #FFF;
+     padding: 16px 20px;
+     font-family: "HelveticaNeue", sans-serif;
+     font-size: 12px;
+     }
+ .square h4{
+	 font-family: "Bebas Regular", sans-serif;
+	 color: #FFF;
+     }
+ .slider-nav{
+	  margin-bottom: 40px;
+     }
+ .cards .container{
+	 width: 100%;
+     }
+ .icon_red{
+	 height: 68px;
+     }
+ .icon_red>a{
+	 background: url(../img/iconset_home.png) no-repeat;
+	 background-position: 0 0;
+	 padding: 30px;
+     }
+ .cards > div:nth-child(2) > div > div >.icon_red>a{
+	 background: url(../img/iconset_home.png) no-repeat;
+	 background-position: -85px 0;
+     }
+ .cards > div:nth-child(3) > div > div >.icon_red>a{
+	 background: url(../img/iconset_home.png) no-repeat;
+	 background-position: -175px 0;
+     }
+  .my_slider_syncing{
+    	margin-top: -98px;
+   	}
+ .my_slider_syncing>.row{
+   	  margin-left: 5px;
+   	}
+    .square h4 {
+	    font-size: 12px;
+  }
+    .portf .mg{
+            width: 49%;
+          }
+    .portf. h4{
+            width: 50%;
+          }
+          
+   @media (min-width: 768px) { 
+      .slick-prev:before, .slick-next:before { 
+	    font-family: "FontAwesome";
+	    font-size: 30px;
+	       }  
+       .square h4 {
+	     font-size: 16px;
+        }
+     .square {
+  	     top: 37%
+         }
+         .portf .mg{
+            width: 75%;
+          }
+          .portf. h4{
+            width: 24%;
+          }
+     }
+   @media (min-width: 992px) { 
+	 .slick-prev:before, .slick-next:before { 
+	     font-family: "FontAwesome";
+	     font-size: 40px;
+	   }
+	 .slick-prev, .slick-next {
+        top: -250px;
+      }  
+	 .square h4 {
+	     font-size: 16px;
+      }
+    .square {
+  	   top: 50%
+      }
+      .portf .mg{
+            width: 80%;
+          }
+          .portf. h4{
+            width: 19%;
+          }
+     }
+       @media (min-width: 1200px) {
+	       .slick-prev:before, .slick-next:before { 
+	         font-family: "FontAwesome";
+	         font-size: 50px;
+	       }  
+	       .square h4 {
+	         font-size: 18px;
+          }
+         .square {
+  	         top: 50%
+          }
+          .portf .mg{
+            width: 85%;
+          }
+          .portf. h4{
+            width: 15%;
+          }
+        }
+          @media (min-width: 1700px) {
+         .slick-prev:before, .slick-next:before { 
+           font-family: "FontAwesome";
+           font-size: 50px;
+         }  
+         .square h4 {
+           font-size: 18px;
+          }
+         .square {
+             top: 50%
+          }
+          .portf .mg{
+            width: 88%;
+          }
+          .portf. h4{
+            width: 11%;
+          }
+         }
+
+  
